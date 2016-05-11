@@ -58,7 +58,7 @@ local inst = {
 	{1, 2, 5},
 	{3, 1, 2},
 	{3, 1, 2},
-	-- {7, 1},
+	{7, 1},
 }
 
 function run_bytecode(inst)
@@ -78,10 +78,10 @@ end
 -- end
 
 
--- run_bytecode(inst)
+run_bytecode(inst)
 
-for i = 1, 10000000 do
-	run_bytecode(inst)
-end
+-- for i = 1, 10000000 do
+-- 	run_bytecode(inst)
+-- end
 
 print ("done")
